@@ -7,6 +7,7 @@ import {
     typescript,
     html,
     css,
+    flutter,
     reactjs,
     redux,
     tailwind,
@@ -54,8 +55,8 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Flutter Developer",
+      icon: mobile,
     },
   ];
   
@@ -72,21 +73,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
+   
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "Node JS",
@@ -97,20 +87,12 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
