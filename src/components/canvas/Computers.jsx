@@ -1,7 +1,7 @@
 import {Suspense , useEffect , useState} from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls,Preload ,SpotLight,useGLTF } from '@react-three/drei';
-import CanvasLoader from '../loader';
+import { OrbitControls ,SpotLight,useGLTF } from '@react-three/drei';
+import CanvasLoader from '../Loader';
 import * as THREE from 'three';
 const Computers = ({isMobile}) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
@@ -27,7 +27,7 @@ const ComputersCanvas =() => {
   const [isMobile, setisMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width:500px');
+    const mediaQuery = window.matchMedia('(max-width:750px');
 
     setisMobile(mediaQuery.matches);
 
