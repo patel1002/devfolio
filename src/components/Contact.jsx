@@ -39,8 +39,8 @@ const Contact = () => {
            className='mt-12 flex flex-col gap-8'
             >
               <label className='flex flex-col'>
-                <span className='text-white text-medium mb-4'>Your Name</span>
-                <input 
+                <span className='text-white text-medium mb-4'><b> Email  </b> dushyantp1002@gmail.com</span>
+                {/* <input 
                   type='text'
                   name= 'name'
                   value={form.name}
@@ -48,12 +48,12 @@ const Contact = () => {
                   placeholder="What's your name?"
                   className='bg-tertiary py-4 px-6  placeholder:text-secondary 
                     text-white rounded-lg outline-none border-none font-medium'
-                />
+                /> */}
               </label>
 
               <label className='flex flex-col'>
-                <span className='text-white text-medium mb-4'>Your Email</span>
-                <input 
+                <span className='text-white text-medium mb-4'><b> Contact No. </b> +91 9106949531</span>
+                {/* <input 
                   type='text'
                   name= 'email'
                   value={form.email}
@@ -61,10 +61,10 @@ const Contact = () => {
                   placeholder="What's your email?"
                   className='bg-tertiary py-4 px-6  placeholder:text-secondary 
                     text-white rounded-lg outline-none border-none font-medium'
-                />
+                /> */}
               </label>
 
-              <label className='flex flex-col'>
+              {/* <label className='flex flex-col'>
                 <span className='text-white text-medium mb-4'>Your Message</span>
                 <textarea
                 rows="7" 
@@ -75,15 +75,15 @@ const Contact = () => {
                   className='bg-tertiary py-4 px-6  placeholder:text-secondary 
                     text-white rounded-lg outline-none border-none font-medium'
                 />
-              </label>
+              </label> */}
 
-              <button
+              {/* <button
               type='submit'
               className='bg-tertiary py-3 px-8 outline-none border-none w-fit font-bold shadow-md
                 shadow-primary rounded-xl'
                 >
                   {loading ? 'Sending..' : 'Send'}
-              </button>
+              </button> */}
 
             </form>
             </motion.div>

@@ -41,14 +41,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("","" , 0.1,1)}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br/>
-        sed do eiusmod tempor incididunt ut labore et dolore magna<br/>
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br/>
-        ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-        Duis aute irure dolor in reprehenderit in voluptate velit<br/>
-        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint<br/>
-        occaecat cupidatat non proident, sunt in culpa qui officia <br/>
-        deserunt mollit anim id est laborum.</motion.p>
+      👋 Greetings! I'm Dushyant, originally a Flutter enthusiast now exploring full-stack development with Spring and JSP. My expertise lies in crafting seamless mobile experiences and robust backend solutions. While my main focus is application development, my heart harbors a passion for game development, infusing creativity into the coding realm. Proficient in Figma, I seamlessly bridge design and development. Join me for insights, tips, and musings on this multifaceted coding journey! 🚀✨.</motion.p>
 
         <div className='mt-10 flex flex-wrap gap-10'>
           {services.map((service,index) =>(

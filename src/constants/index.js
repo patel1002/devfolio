@@ -24,6 +24,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    karshIt,
+    everest_logo,
+    bisagn_logo,
   } from "../assets";
   
   export const navLinks = [
@@ -43,32 +46,32 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Flutter",
+      icon: mobile,
+    },
+    {
+      title: "Spring",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Python",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Figma",
       icon: backend,
-    },
-    {
-      title: "Flutter Developer",
-      icon: mobile,
-    },
+    }
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -98,57 +101,45 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Flutter Developer",
+      company_name: "Krash IT Service",
+      icon: karshIt,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2021 - Oct 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating Application Using Flutter and Firebase.",
+        "maintaining Database.",
+        "Add Features In Existing Project.",
+        "worked on Payment Integration .",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Mobile Application Developer",
+      company_name: "Everest Instrument PVT LTD",
+      icon: everest_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2021 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing UI.",
+        "Rest API Intrations.",
+        "Maintaining Application / Bug Fixing / Update App as per need .",
+        "Testing Application & code maintaining using veraion control.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full Stack Developer",
+      company_name: "Bisag-N",
+      icon: bisagn_logo,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Full Stack Development Using Spring.",
+        "Optimize Code into Existing Project.",
+        "Creating Optimized Architecture For Database.",
+        "Creating Secure Data Encryption Function Related To Project.",
+        "Worked On Integrat Various Thrird Party Services."
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [

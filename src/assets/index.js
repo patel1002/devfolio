@@ -31,6 +31,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import karshIt from "./krash_it_logo.jpg";
+import everest_logo from "./everest_logo.png";
+import bisagn_logo from "./bisagn_logo.png";
+
 export {
   logo,
   backend,
@@ -61,4 +65,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  karshIt,
+  everest_logo,
+  bisagn_logo,
 };
