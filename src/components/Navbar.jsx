@@ -23,8 +23,20 @@ const Navbar = () => {
             Dp Codes
           </p>
         </Link>
+       
         
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+           {/* resume download */}
+        <li key=""
+    className="text-white  hover:text-white text-[18px] font-medium cursor-pointer"
+    // onClick={() => {
+    //   // download pdf
+    //   alert("Resume Downloaded")
+    // }}
+    >
+      <a href="https://drive.google.com/uc?export=download&id=1SnhT_yu3psKdAmK3L__13N1PiRNngHJL" target="_blank">Resume</a>
+    </li>
+
   {navLinks.map((link) => (
     <li key={link.id}
     className={`${
